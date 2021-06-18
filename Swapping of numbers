@@ -1,0 +1,14 @@
+#include<studio.h>
+int main() 
+{
+ int a,b;
+ printf("enter any two numbers");
+ scanf("%d%d",&a,&b);
+ printf("before swapping a=%d and b=%d",a,b);
+ a=a-b;
+ b=b+a; 
+ a=b-a;
+ printf("after swapping a=%d and b=%d",a,b);
+ return 0;
+}
+ 
